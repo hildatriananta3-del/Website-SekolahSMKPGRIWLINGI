@@ -1,0 +1,275 @@
+aA
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="card" style="width: 3rem;">
+                    <img src="images.jpg" class="card-img-top" alt="...">
+                </div>
+                <a class="navbar-brand" href="/">SMK PGRI Wlingi</a>
+                <h6 class="fw-lighter" style="font-size: 13px">SMP</h6>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Profil
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Akademik
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Kesiswaan
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Berita
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Galeri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Kontak</a>
+                        </li>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+        </div>
+    </nav>
+    {{-- carousel --}}
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="sklh.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="3.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="2.JPG" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="..."
+                    height="200">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    {{-- card 1 --}}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card mt-3">
+                    <div class="card-header bg-primary-subtle">
+                        <b>Sambutan Kepala Sekolah </b>
+                    </div>
+                    <div class="card-body">
+                        <img src="p.jpg" class="img-thumbnail float-start me-3 mb-2" alt="..."
+                            width="200" height="150">
+                        <P><b>Assalamualaikum Wr.Wb.</b></P>
+                        <p>
+                            Yang saya hormati Bapak/Ibu Dewan Guru beserta staf SMK PGRI Wlingi,
+                            Yang saya banggakan orang tua/wali murid, serta anak-anakku tercinta siswa-siswi SMK PGRI
+                            Wlingi.
+                            Puji syukur senantiasa kita panjatkan ke hadirat Allah SWT, Tuhan Yang Maha Esa. Karena atas
+                            limpahan rahmat dan karunia-Nya, kita dapat berkumpul dalam acara ini dalam keadaan sehat
+                            walafiat.
+                            Hadirin yang saya hormati,
+                            SMK PGRI Wlingi terus berkomitmen untuk mencetak generasi yang kompeten, siap kerja,
+                            mandiri, dan berakhlak mulia. Kami sadar bahwa tantangan dunia kerja saat ini semakin ketat.
+                            Oleh karena itu, pembekalan keterampilan dan karakter disiplin menjadi prioritas utama di
+                            sekolah ini.
+                            Kepada anak-anakku sekalian, teruslah belajar dan kembangkan potensi diri kalian. Jangan
+                            pernah cepat puas dengan hasil hari ini. Manfaatkan fasilitas dan bimbingan bapak-ibu guru
+                            di sekolah dengan sebaik-baiknya untuk meraih masa depan yang gemilang.
+                            Akhir kata, saya mengucapkan terima kasih kepada seluruh guru, tenaga kependidikan, dan
+                            orang tua siswa atas kerja sama dan dukungannya. Semoga SMK PGRI Wlingi terus maju dan
+                            mencetak lulusan yang membanggakan.
+                            Sekian dari saya. Mohon maaf jika ada kesalahan kata.
+                            Wabillahi taufiq wal hidayah,
+                            Wassalamualaikum Warahmatullahi Wabarakatuh.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-3">
+                    <div class="card-header bg-primary-subtle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg>
+                        <b>Pengumuman Terbaru</b>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <b>Pendaftaran Peserta Didik Tahun Ajaran 2026/2027</b>
+                            <br>
+                            <small>15 April 2026</small>
+                        </li>
+                        <li class="list-group-item">
+                            <b>Jadwal Ujin Semester Genap Tahun Ajaran 2024/2025</b>
+                            <br>
+                            <small>10 April 2025</small>
+                        </li>
+                        <li class="list-group-item">
+                            <b>Informasi Libur Idul Fitri 1446H</b>
+                            <br>
+                            <small>25 Maret 2025</small>
+                        </li>
+                        <li class="list-group-item">
+                            <b>Pengumuman Kelulusan Kelas XII</b>
+                            <br>
+                            <small>20 Maret 2025</small>
+                        </li>
+                        <li class="list-group-item">
+                            <b>Kegiatan Bakti Sosial Sekolah</b>
+                            <br>
+                            <small>12 Maret 2025</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {{-- card 3 --}}
+        <div class="card">
+            <div class="card-header bg-primary-subtle">
+                <b>Daftar Kegiatan </b>
+            </div>
+            <div class="card-body">
+                <div class="card-body">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="t.jpg" class="card-img-top" alt="..."width="200" height="300">
+                            <div class="card-body">
+                                <h5 class="card-title">Upacara Hari Pendidikan Nasional</h5>
+                                <small>02 Mei 2025</small>
+                                <p class="card-text">SMK PGRI Wlingi memperingati Hari Pendidikan Nasional (Hardiknas)
+                                    pada 2 Mei 2026 dan menyelenggarakan upacara bendera secara khidmat pada Senin, 4
+                                    Mei 2026, sebagaimana dibagikan melalui Instagram SMK PGRI Wlingi</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="mpls.jpg" class="card-img-top" alt="..."width="200" height="300">
+                            <div class="card-body">
+                                <h5 class="card-title">MPLS 2026-2027</h5>
+                                <small>11 juli 2026</small>
+                                <p class="card-text">diawali dengan kegiatan Pra-MPLS pada 11 Juli 2026, dilanjutkan
+                                    rangkaian MPLS pertengahan Juli 2026, serta ditutup dengan upacara pembukaan tahun
+                                    ajaran baru dan puncak Dies Natalis ke-39 sekolah mengusung tema "Nawasena Gita".
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="l.jpg" class="card-img-top" alt="..."
+                             width="200" height="300">
+                            <div class="card-body">
+                                <h5 class="card-title">kunjungan ke SMKS PGRI Singosari</h5>
+                                <small class="text-muted d-block mb-2">13 Mei</small>
+                                <p class="card-text">pada 13 mei 2026 SMKS PGRI Singosari melaksanakan kegiatan studi
+                                    banding dan kunjungan ke SMKS PGRI Wlingi. kegiatan ini menjadi salah satu sarana
+                                    untuk menambah wawasan,berbagi pengalaman,serta mepererat hubungan antar sekolah</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="f.jpg" class="card-img-top" alt="..."width="200"height="300 object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Bazar Beru Night Festival</h5>
+                                <p class="card-text">Pada tanggal 25–27 September 2026, SMKS PGRI WLINGI turut
+                                    berpartisipasi dalam Bazzar dan Beru Night Festival 2026 yang bertempat di
+                                    Lapangan Kenongo SMKS PGRI Wlingi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- footer --}}
+        <nav class="navbar fixed-bottom text-white px-3 justify-content-between" style="background-color: #0B1325;">
+            <a class="navbar-brand text-white fw-bold m-0" href="#">
+                <p>SMK PGRI Wlingi</p>
+            </a>
+            <div class="d-flex flex-column text-center">
+                <p class="mb-0">Website ini di kembangkan oleh</p>
+                <p class="mb-0 text-white-50 small">@aurahildaassel</p>
+            </div>
+            <div>
+                <p class="mb-0">2026 SMK PGRI Wlingi.All nights reserved</p>
+                <p class="mb-0 text-white-50 small">Powered by aurahildaassel</p>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
